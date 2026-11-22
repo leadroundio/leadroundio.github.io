@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Sell Leads You Cannot Take | Leadround</title>
-    <meta name="description" content="Sell leads on Leadround: pass the client requests you cannot take to a fellow expert and earn a referral fee. A peer-to-peer lead marketplace for agencies, consultants and freelancers." />
+    <title>Sell Leads You Cannot Take and Earn Referral Fees | Leadround</title>
+    <meta name="description" content="Sell the leads you cannot take on Leadround. Estimate what they are worth, post the client request and earn a fixed referral fee or a 10% commission when a fellow expert takes it." />
     <link rel="canonical" href="https://leadround.io/sell-leads" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://leadround.io/sell-leads" />
-    <meta property="og:title" content="Sell Leads You Cannot Take | Leadround" />
-    <meta property="og:description" content="Sell leads on Leadround: pass the client requests you cannot take to a fellow expert and earn a referral fee. A peer-to-peer lead marketplace for agencies, consultants and freelancers." />
+    <meta property="og:title" content="Sell Leads You Cannot Take and Earn Referral Fees | Leadround" />
+    <meta property="og:description" content="Sell the leads you cannot take on Leadround. Estimate what they are worth, post the client request and earn a fixed referral fee or a 10% commission when a fellow expert takes it." />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Sell Leads You Cannot Take | Leadround" />
-    <meta name="twitter:description" content="Sell leads on Leadround: pass the client requests you cannot take to a fellow expert and earn a referral fee. A peer-to-peer lead marketplace for agencies, consultants and freelancers." />
+    <meta name="twitter:title" content="Sell Leads You Cannot Take and Earn Referral Fees | Leadround" />
+    <meta name="twitter:description" content="Sell the leads you cannot take on Leadround. Estimate what they are worth, post the client request and earn a fixed referral fee or a 10% commission when a fellow expert takes it." />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/css/leadr0und.webflow.shared.c8a605797.css" rel="stylesheet" type="text/css" integrity="sha384-yKYFeXzfXjjOa58sEcHKg7stkNB1WMVbI7zEVSujmO9S2klpYMjezZ11OM2majqh" crossorigin="anonymous" />
     <script type="text/javascript">
@@ -33,19 +33,92 @@
       }
       .lr-section { padding: 48px 0 64px; }
       .lr-section .f-title-wrapper-center { max-width: 680px; }
-      .f-footer-bottom { flex-wrap: wrap; row-gap: 12px; }
-      .footer-nav-links { flex: 1 1 100%; justify-content: flex-start; grid-column-gap: 28px; }
-      .footer-nav-links .f-footer-link { white-space: nowrap; }
-      .footer-copyright-details { flex: 1 1 100%; justify-content: flex-start; }
-      @media (max-width: 767px) { .footer-nav-links { flex-flow: row wrap; grid-row-gap: 0; } .footer-copyright-details { justify-content: center; } }
+      .lr-section .f-paragraph-large a { color: #111827; text-decoration: underline; }
+      .lr-section .f-paragraph-large strong { color: #111827; }
+      /* footer: four columns */
+      .navigation-container-desktop .navigation-link { font-size: 16px; line-height: 24px; }
+      .navigation-container-desktop .navigation-link:not(.w--current) { color: #111827; }
+      .navigation-container-desktop .navigation-button-secondary { display: inline-flex; align-items: center; justify-content: center; line-height: 24px; }
+      .footer { padding-top: 0; }
+      .lr-footer-top-divider.f-footer-divider { margin-top: 88px; margin-bottom: 44px; }
+      .lr-footer-grid { display: grid; grid-template-columns: minmax(0, 2.6fr) repeat(2, minmax(0, 1fr)); grid-column-gap: 40px; grid-row-gap: 32px; align-items: start; }
+      .lr-footer-brand .f-footer-logo { display: block; width: 124px; line-height: 0; }
+      .lr-footer-brand .f-footer-logo img { display: block; width: 124px; height: 30px; }
+      .lr-footer-brand .f-paragraph-small { margin-top: 16px; }
+      .lr-footer-heading { font-family: Plusjakartasans, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #6b7094; line-height: 16px; height: 30px; display: flex; align-items: center; margin-bottom: 6px; }
+      .lr-footer-col { display: flex; flex-direction: column; align-items: flex-start; }
+      .lr-footer-col .f-footer-link { margin: 0; padding: 5px 0; }
+      .lr-footer-col .f-footer-link:hover { color: #6b7094; border: 0; }
+      .lr-footer-brand .f-footer-detail { margin: 16px 0 0; text-align: left; color: #9a9eb8; font-size: 12px; line-height: 16px; }
+      @media (max-width: 991px) { .lr-footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .lr-footer-brand { grid-column: 1 / -1; } .lr-footer-brand .f-paragraph-small { text-align: left; } }
+      @media (max-width: 479px) { .lr-footer-grid { grid-template-columns: 1fr; grid-row-gap: 28px; } }
+      @media (max-width: 767px) { .lr-footer-brand { order: 1; } }
       .lr-section { padding: 64px 0; }
       .lr-faq { max-width: 760px; margin: 0 auto; }
       .lr-faq-item { padding: 18px 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
       .lr-faq-item:last-child { border-bottom: 0; }
       .lr-faq-item h3 { font-size: 20px; line-height: 1.3; margin: 0 0 8px; }
       .lr-faq-item p { margin: 0; }
+      .lr-hero-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+      .lr-hero-buttons .button-primary { margin: 0; }
+      .lr-button-secondary { width: 200px; min-height: 56px; display: flex; align-items: center; justify-content: center; border: 1px solid #d5d8e5; border-radius: 6px; background: #fff; color: #111827; font-family: Plusjakartasans, sans-serif; font-size: 16px; font-weight: 600; letter-spacing: -.02em; text-decoration: none; transition: border-color .2s; }
+      .lr-button-secondary:hover { border-color: #111827; }
+      .lr-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; max-width: 1040px; margin: 0 auto; }
+      .lr-step { background: #f7f9fd; border-radius: 12px; padding: 32px 28px; }
+      .lr-step-num { width: 44px; height: 44px; border-radius: 50%; background: #111827; color: #fff; display: flex; align-items: center; justify-content: center; font-family: Plusjakartasans, sans-serif; font-weight: 700; font-size: 18px; margin-bottom: 24px; }
+      .lr-step-title { font-family: Plusjakartasans, sans-serif; font-size: 22px; line-height: 1.3; letter-spacing: -.02em; color: #111827; margin: 0 0 10px; }
+      .lr-step .f-paragraph-medium { margin: 0; }
+      .lr-calc { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 40px; max-width: 1000px; margin: 0 auto; background: #f7f9fd; border-radius: 12px; padding: 40px; align-items: center; }
+      .lr-calc-tabs { display: flex; gap: 4px; padding: 4px; background: #eceef5; border-radius: 8px; margin-bottom: 32px; }
+      .lr-calc-tab { flex: 1 1 0; border: 0; border-radius: 6px; background: transparent; padding: 10px 12px; font-family: Plusjakartasans, sans-serif; font-size: 15px; font-weight: 600; letter-spacing: -.01em; color: #6b7094; cursor: pointer; }
+      .lr-calc-tab.is-active { background: #fff; color: #111827; box-shadow: 0 1px 2px rgba(17,24,39,.08); }
+      .lr-calc[data-mode=fixed] [data-for=commission], .lr-calc[data-mode=commission] [data-for=fixed] { display: none; }
+      .lr-calc-field { margin-bottom: 32px; }
+      .lr-calc-inputs .lr-calc-field:last-child, .lr-calc[data-mode=fixed] .lr-calc-field[data-for=fixed]:nth-last-child(3) { margin-bottom: 0; }
+      .lr-calc-label { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 12px; font-family: Plusjakartasans, sans-serif; }
+      .lr-calc-label label { font-size: 16px; font-weight: 500; color: #111827; margin: 0; }
+      .lr-calc-label output { font-size: 20px; font-weight: 700; color: #160042; white-space: nowrap; }
+      .lr-calc input[type=range] { width: 100%; accent-color: #111827; margin: 0; cursor: pointer; }
+      .lr-calc-scale { display: flex; justify-content: space-between; font-family: Plusjakartasans, sans-serif; font-size: 12px; color: #9a9eb8; margin-top: 6px; }
+      .lr-calc-result { background: #fff; border-radius: 12px; padding: 32px; font-family: Plusjakartasans, sans-serif; box-shadow: 0 1px 2px rgba(17,24,39,.04); }
+      .lr-calc-row { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: #6b7094; padding: 6px 0; }
+      .lr-calc-row span:last-child { color: #111827; font-weight: 600; }
+      .lr-calc-total { border-top: 1px solid #eceef5; margin-top: 12px; padding-top: 20px; }
+      .lr-calc-total-label { font-size: 14px; color: #6b7094; }
+      .lr-calc-total-value { font-size: 44px; line-height: 1.15; font-weight: 700; letter-spacing: -.03em; color: #160042; margin: 4px 0; }
+      .lr-calc-year { font-size: 14px; color: #6b7094; }
+      .lr-calc-result .button-primary { width: 100%; margin: 24px 0 0; }
+      .lr-calc-note { font-size: 12px; line-height: 18px; color: #9a9eb8; margin: 16px 0 0; }
+      @media (max-width: 991px) { .lr-section { padding-left: 5%; padding-right: 5%; } }
+      @media (max-width: 767px) {
+        .lr-steps { grid-template-columns: 1fr; gap: 16px; }
+        .lr-calc { grid-template-columns: 1fr; padding: 24px; gap: 28px; }
+        .lr-calc-result { padding: 24px; }
+        .lr-calc-total-value { font-size: 36px; }
+      }
     </style>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="ba18cce8-1802-4a56-a928-3b4bc80b758b"></script>
+    <script>
+      (function () {
+        var token = new URLSearchParams(window.location.search).get("t");
+        if (!token) return;
+        document.cookie = "leadround_token=" + encodeURIComponent(token) + "; path=/; domain=.leadround.io; max-age=2592000; SameSite=Lax; Secure";
+        fetch("https://4lry0l7f42.execute-api.us-east-1.amazonaws.com/default/leadround-proxy-event-tracking", {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "text/plain" },
+          body: JSON.stringify({ token: token, eventType: "CLICK", url: window.location.href })
+        }).catch(function () {});
+        function tagLinks() {
+          document.querySelectorAll('a[href^="https://app.leadround.io/"]').forEach(function (link) {
+            var url = new URL(link.href);
+            url.searchParams.set("t", token);
+            link.href = url.toString();
+          });
+        }
+        if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", tagLinks); else tagLinks();
+      })();
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XRZC7WM6M"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -78,8 +151,8 @@
           "@type": "WebPage",
           "@id": "https://leadround.io/sell-leads#webpage",
           "url": "https://leadround.io/sell-leads",
-          "name": "Sell Leads You Cannot Take | Leadround",
-          "description": "Sell leads on Leadround: pass the client requests you cannot take to a fellow expert and earn a referral fee. A peer-to-peer lead marketplace for agencies, consultants and freelancers.",
+          "name": "Sell Leads You Cannot Take and Earn Referral Fees | Leadround",
+          "description": "Sell the leads you cannot take on Leadround. Estimate what they are worth, post the client request and earn a fixed referral fee or a 10% commission when a fellow expert takes it.",
           "isPartOf": {
             "@id": "https://leadround.io/#website"
           },
@@ -117,18 +190,58 @@
             },
             {
               "@type": "Question",
-              "name": "How much do I earn?",
+              "name": "Which leads sell best?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "You set the terms when you post a lead and the current fee options are shown in the app. Payment is made when the introduction happens."
+                "text": "Clear requests for work on a software product: implementation, automation, integration, migration or ongoing management, with a named tool, a timeline and a realistic budget. The more specific your notes, the faster a specialist asks for the lead."
               }
             },
             {
               "@type": "Question",
-              "name": "Do I have to be a buyer too?",
+              "name": "How much can I earn per lead?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No. Many members start by selling. Most end up doing both, because the colleague who bought your Klaviyo lead is the one who will send you a Zapier project next month."
+                "text": "You choose one of two options when you post the lead. A fixed referral fee, typically $30 to $200, for each introduction, with up to three introductions per lead. Or a 10% commission on the final project value. Use the calculator above for a rough estimate."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I get paid?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You connect a payout account in the app. A fixed fee is earned for each introduction to your lead. A commission is earned when your referral converts into a project and the payment is collected from the client."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does it cost to sell a lead?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Posting a lead costs nothing. The referral fee is paid by the expert who is introduced to your client."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Leadround check the leads?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Each lead submission is verified: our staff contacts the client to make sure the request is real, accurate and current."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Who takes the leads I post?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Fellow Leadround members who specialise in the tool the client needs: agencies, consultants and freelancers. Your lead is shown to them, not broadcast to the internet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my client's contact information safe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Members see the project, the tools, the timing and the budget range, not who the client is. Contact details are shared only with the experts who are introduced."
               }
             },
             {
@@ -136,7 +249,23 @@
               "name": "What happens to the client?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Leadround introduces the client to the expert who requested the introduction and stays in the loop to make sure the handover goes well."
+                "text": "Leadround introduces the client to the experts who asked for the introduction, and a project manager stays with the client to help the project get delivered."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What if nobody takes my lead?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can update the lead or withdraw it at any time from your account."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I have to buy leads too?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. You can join Leadround only to sell the leads you cannot take."
               }
             }
           ]
@@ -180,54 +309,205 @@
                 <div class="f-margin-bottom-24">
                     <h1 class="f-h1-heading">Sell the leads<br/>you cannot take</h1>
                 </div>
-                <p class="f-paragraph-large">Every service professional turns clients away: no capacity, the wrong tool, the wrong region, the wrong budget. On Leadround that call is not wasted. Post the request, let a fellow expert take it and earn a referral fee.</p>
+                <p class="f-paragraph-large">Every service professional turns clients away: no capacity, the wrong tool, the wrong region, the wrong budget. On Leadround that call is not wasted. Refer the declined lead to a fellow expert and earn a referral fee.</p>
             </div>
         </div>
-        <a href="https://app.leadround.io/sign-up" class="button-primary w-inline-block">
-            <div class="text-block">Join Leadround</div>
-        </a>
+        <div class="lr-hero-buttons">
+            <a href="https://app.leadround.io/sign-up" class="button-primary w-inline-block">
+                <div class="text-block">Start selling</div>
+            </a>
+            <a href="#how-to-sell" class="lr-button-secondary w-inline-block">
+                <div class="text-block">See how it works</div>
+            </a>
+        </div>
     </div>
+
+
+    <div class="lr-section" id="calculator">
+        <div class="f-container-regular">
+            <div class="f-margin-bottom-64">
+                <div class="f-title-wrapper-center">
+                    <div class="f-feature-section-divider"></div>
+                    <div class="f-margin-bottom-25">
+                        <div class="f-heading-detail-small">earnings calculator</div>
+                    </div>
+                    <div class="f-margin-bottom-16">
+                        <h2 class="f-h3-heading">What are your declined leads worth?</h2>
+                    </div>
+                    <p class="f-paragraph-large">Pick how you want to be paid and move the sliders to estimate what the clients you turn away could earn you on Leadround.</p>
+                </div>
+            </div>
+            <div class="lr-calc" data-mode="fixed">
+                <div class="lr-calc-inputs">
+                    <div class="lr-calc-tabs" role="tablist" aria-label="Referral fee type">
+                        <button type="button" class="lr-calc-tab is-active" role="tab" aria-selected="true" data-mode="fixed">Fixed fee</button>
+                        <button type="button" class="lr-calc-tab" role="tab" aria-selected="false" data-mode="commission">10% commission</button>
+                    </div>
+                    <div class="lr-calc-field">
+                        <div class="lr-calc-label"><label for="lr-calc-leads">Leads you turn down per month</label><output id="lr-calc-leads-out" for="lr-calc-leads">5</output></div>
+                        <input type="range" id="lr-calc-leads" min="1" max="30" step="1" value="5" />
+                        <div class="lr-calc-scale"><span>1</span><span>30</span></div>
+                    </div>
+                    <div class="lr-calc-field" data-for="fixed">
+                        <div class="lr-calc-label"><label for="lr-calc-intros">Introductions per lead</label><output id="lr-calc-intros-out" for="lr-calc-intros">1</output></div>
+                        <input type="range" id="lr-calc-intros" min="0.5" max="3" step="0.5" value="1" />
+                        <div class="lr-calc-scale"><span>0.5</span><span>3 max</span></div>
+                    </div>
+                    <div class="lr-calc-field" data-for="fixed">
+                        <div class="lr-calc-label"><label for="lr-calc-fee">Fixed fee per introduction</label><output id="lr-calc-fee-out" for="lr-calc-fee">$75</output></div>
+                        <input type="range" id="lr-calc-fee" min="30" max="200" step="5" value="75" />
+                        <div class="lr-calc-scale"><span>$30</span><span>$200</span></div>
+                    </div>
+                    <div class="lr-calc-field" data-for="commission">
+                        <div class="lr-calc-label"><label for="lr-calc-conv">Leads that convert into a project</label><output id="lr-calc-conv-out" for="lr-calc-conv">30%</output></div>
+                        <input type="range" id="lr-calc-conv" min="10" max="100" step="5" value="30" />
+                        <div class="lr-calc-scale"><span>10%</span><span>100%</span></div>
+                    </div>
+                    <div class="lr-calc-field" data-for="commission">
+                        <div class="lr-calc-label"><label for="lr-calc-value">Average final project value</label><output id="lr-calc-value-out" for="lr-calc-value">$3,000</output></div>
+                        <input type="range" id="lr-calc-value" min="500" max="20000" step="250" value="3000" />
+                        <div class="lr-calc-scale"><span>$500</span><span>$20,000</span></div>
+                    </div>
+                </div>
+                <div class="lr-calc-result" aria-live="polite">
+                    <div class="lr-calc-row"><span>Leads you post</span><span id="lr-calc-r1">5 / month</span></div>
+                    <div class="lr-calc-row"><span id="lr-calc-l2">Paid introductions</span><span id="lr-calc-r2">5 / month</span></div>
+                    <div class="lr-calc-row"><span id="lr-calc-l3">Fee per introduction</span><span id="lr-calc-r3">$75</span></div>
+                    <div class="lr-calc-total">
+                        <div class="lr-calc-total-label">Estimated monthly earnings</div>
+                        <div class="lr-calc-total-value" id="lr-calc-month">$375</div>
+                        <div class="lr-calc-year">That is <span id="lr-calc-year">$4,500</span> a year</div>
+                    </div>
+                    <a href="https://app.leadround.io/sign-up" class="button-primary w-inline-block">
+                        <div class="text-block">Start selling</div>
+                    </a>
+                    <p class="lr-calc-note">An estimate, not a promise. A fixed fee is typically $30 to $200 for each introduction, with up to 3 introductions per lead. A commission is 10% of the final project value, paid when the lead converts.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      (function () {
+        var $ = function (id) { return document.getElementById(id); };
+        var box = document.querySelector('.lr-calc');
+        if (!box) return;
+        var leads = $('lr-calc-leads'), intros = $('lr-calc-intros'), fee = $('lr-calc-fee'), conv = $('lr-calc-conv'), value = $('lr-calc-value');
+        var tabs = box.querySelectorAll('.lr-calc-tab');
+        var money = function (n) { return '$' + Math.round(n).toLocaleString('en-US'); };
+        var num = function (n) { return (Math.round(n * 10) / 10).toLocaleString('en-US'); };
+        function update() {
+          var mode = box.getAttribute('data-mode'), l = +leads.value, month;
+          $('lr-calc-leads-out').textContent = l;
+          $('lr-calc-r1').textContent = l + ' / month';
+          if (mode === 'commission') {
+            var c = +conv.value, v = +value.value, projects = l * c / 100;
+            month = projects * v * 0.1;
+            $('lr-calc-conv-out').textContent = c + '%';
+            $('lr-calc-value-out').textContent = money(v);
+            $('lr-calc-l2').textContent = 'Converted projects';
+            $('lr-calc-r2').textContent = num(projects) + ' / month';
+            $('lr-calc-l3').textContent = 'Commission per project (10%)';
+            $('lr-calc-r3').textContent = money(v * 0.1);
+          } else {
+            var i = +intros.value, f = +fee.value, paid = l * i;
+            month = paid * f;
+            $('lr-calc-intros-out').textContent = num(i);
+            $('lr-calc-fee-out').textContent = money(f);
+            $('lr-calc-l2').textContent = 'Paid introductions';
+            $('lr-calc-r2').textContent = num(paid) + ' / month';
+            $('lr-calc-l3').textContent = 'Fee per introduction';
+            $('lr-calc-r3').textContent = money(f);
+          }
+          $('lr-calc-month').textContent = money(month);
+          $('lr-calc-year').textContent = money(month * 12);
+        }
+        Array.prototype.forEach.call(tabs, function (tab) {
+          tab.addEventListener('click', function () {
+            box.setAttribute('data-mode', tab.getAttribute('data-mode'));
+            Array.prototype.forEach.call(tabs, function (t) {
+              var on = t === tab;
+              t.classList.toggle('is-active', on);
+              t.setAttribute('aria-selected', on ? 'true' : 'false');
+            });
+            update();
+          });
+        });
+        [leads, intros, fee, conv, value].forEach(function (el) { el.addEventListener('input', update); });
+        update();
+      })();
+    </script>
 
     <div class="section-solution-guarantee">
         <div class="f-container-regular">
-            <div class="f-solution-card">
+            <div class="f-warranty-card">
                 <div class="f-title-wrapper-center">
+                    <div class="f-warranty-icon"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6909beb620221189de02db9a_crypto-currency-square-shield.svg" loading="lazy" width="40" alt="" /></div>
                     <div class="f-feature-accent"></div>
                     <div class="f-margin-bottom-16">
-                        <h2 class="f-h3-heading">How selling a lead works</h2>
+                        <h2 class="f-h3-heading">Why sell on Leadround?</h2>
                     </div>
                 </div>
-                <div class="w-layout-grid f-grid-three-column">
-                    <div class="f-feature-fee-card">
-                        <div class="f-feature-icon-wrapper-white"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/69ac9ca81cae938069b4fbfa_Money%2C%20Coins.2.svg" loading="lazy" width="40" alt="" /></div>
+                <div class="w-layout-grid f-warranty-three-column">
+                    <div class="f-feature-card-clear">
+                        <div class="f-feature-icon-wrapper-green"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6909cc658ac6f249478e72d7_Dollar.svg" loading="lazy" width="40" alt="" /></div>
                         <div class="f-margin-bottom-65">
-                            <h3 class="f-h5-heading">Post the request</h3>
+                            <h3 class="f-h5-heading">Earn from calls that went nowhere</h3>
                         </div>
                         <div class="benefit-item">
-                            <p class="f-paragraph-header">What the client needs, which tools, when and roughly what budget</p>
-                            <p class="f-paragraph-medium">Your notes from the call go with it. The client's contact details stay private until an introduction is made.</p>
+                            <p class="f-paragraph-medium">It takes hard work to book a lead. When it does not work out, a referral fee turns that time into a new revenue stream.</p>
                         </div>
                     </div>
-                    <div class="f-feature-fee-card">
-                        <div class="f-feature-icon-wrapper-white"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6909cc3530461d3453016ab4_single-user-checkmark-circle.svg" loading="lazy" width="40" alt="" /></div>
+                    <div class="f-feature-card-clear">
+                        <div class="f-feature-icon-wrapper-green"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6909cc3530461d3453016ab4_single-user-checkmark-circle.svg" loading="lazy" width="40" alt="" /></div>
                         <div class="f-margin-bottom-65">
-                            <h3 class="f-h5-heading">Leadround checks it</h3>
+                            <h3 class="f-h5-heading">Specialists who want your lead</h3>
                         </div>
                         <div class="benefit-item">
-                            <p class="f-paragraph-header">Every lead is verified before it goes live</p>
-                            <p class="f-paragraph-medium">Our team confirms the request is real and current, so buyers trust what they see and your name stays attached to quality.</p>
+                            <p class="f-paragraph-medium">Experts who work with the exact tool the client needs ask to be introduced. Your lead goes to someone who wants it, not to a crowd.</p>
                         </div>
                     </div>
-                    <div class="f-feature-fee-card">
-                        <div class="f-feature-icon-wrapper-white"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/69ac9bfd1f5279435804e682_money-banknote-percent.svg" loading="lazy" width="40" alt="" /></div>
+                    <div class="f-feature-card-clear">
+                        <div class="f-feature-icon-wrapper-green"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/69ac9bfd1f5279435804e682_money-banknote-percent.svg" loading="lazy" width="40" alt="" /></div>
                         <div class="f-margin-bottom-65">
-                            <h3 class="f-h5-heading">Earn a referral fee</h3>
+                            <h3 class="f-h5-heading">The client keeps trusting you</h3>
                         </div>
                         <div class="benefit-item">
-                            <p class="f-paragraph-header">Interested experts ask to be introduced</p>
-                            <p class="f-paragraph-medium">When the introduction is made, you get paid. The client gets a specialist, you get revenue from a call that would have led nowhere.</p>
+                            <p class="f-paragraph-medium">The world runs on referrals. Even when a project is not for you, you stay helpful by connecting the client with the right expert.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lr-section" id="how-to-sell">
+        <div class="f-container-regular">
+            <div class="f-margin-bottom-64">
+                <div class="f-title-wrapper-center">
+                    <div class="f-feature-section-divider"></div>
+                    <div class="f-margin-bottom-25">
+                        <div class="f-heading-detail-small">how to sell a lead</div>
+                    </div>
+                    <div class="f-margin-bottom-16">
+                        <h2 class="f-h3-heading">Sell a lead in three steps</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="lr-steps">
+                <div class="lr-step">
+                    <div class="lr-step-num">1</div>
+                    <h3 class="lr-step-title">Post the lead</h3>
+                    <p class="f-paragraph-medium">Describe what the client needs, which tools are involved, the timing and the budget range. Add your notes from the call and choose your referral fee: a fixed fee for each introduction or a 10% commission.</p>
+                </div>
+                <div class="lr-step">
+                    <div class="lr-step-num">2</div>
+                    <h3 class="lr-step-title">Leadround verifies it</h3>
+                    <p class="f-paragraph-medium">Our staff contacts the client to make sure the request is real, accurate and current. Fellow experts who specialise in that tool then ask to be introduced.</p>
+                </div>
+                <div class="lr-step">
+                    <div class="lr-step-num">3</div>
+                    <h3 class="lr-step-title">Get paid</h3>
+                    <p class="f-paragraph-medium">With a fixed fee you earn on each introduction, up to three per lead. With a commission you earn 10% of the final project value when the lead converts.</p>
                 </div>
             </div>
         </div>
@@ -238,13 +518,12 @@
             <div class="f-title-wrapper-center">
                 <div class="f-feature-section-divider"></div>
                 <div class="f-margin-bottom-25">
-                    <div class="f-heading-detail-small">why sell</div>
+                    <div class="f-heading-detail-small">what sells</div>
                 </div>
                 <div class="f-margin-bottom-16">
-                    <h2 class="f-h3-heading">A declined lead is still worth something</h2>
+                    <h2 class="f-h3-heading">Which leads sell on Leadround</h2>
                 </div>
-                    <p class="f-paragraph-large">It takes real work to get a client on a call. When the project is not for you, the usual options are to say no, or to pass the client to a friend for free and hope the favour comes back. Leadround turns that handover into a transaction with a known price, a verified counterpart and a payment that actually arrives.</p>
-                    <p class="f-paragraph-large">Selling a lead also keeps you in the client's good books. They asked you for help and you found them the right person. The world runs on referrals, and this one has your name on it.</p>
+                    <p class="f-paragraph-large">The experts who take leads on Leadround are agencies, consultants and freelancers who specialise in software products: Zapier, n8n, Make and Airtable automation, Klaviyo and Mailchimp email marketing, Pipedrive, HubSpot and Attio CRM work, Shopify and ecommerce, Clay and outbound tooling, and dozens of others. If a client asked you for help with a product like these and you could not take it, someone on Leadround is looking for exactly that request.</p>
             </div>
         </div>
     </div>
@@ -254,12 +533,12 @@
             <div class="f-title-wrapper-center">
                 <div class="f-feature-section-divider"></div>
                 <div class="f-margin-bottom-25">
-                    <div class="f-heading-detail-small">what sells</div>
+                    <div class="f-heading-detail-small">where to sell</div>
                 </div>
                 <div class="f-margin-bottom-16">
-                    <h2 class="f-h3-heading">Which leads other experts buy</h2>
+                    <h2 class="f-h3-heading">Where to sell leads, and where not to</h2>
                 </div>
-                    <p class="f-paragraph-large">Buyers on Leadround are agencies, consultants and freelancers who specialise in software products: Zapier, n8n, Make and Airtable automation, Klaviyo and Mailchimp email marketing, Pipedrive, HubSpot and Attio CRM work, Shopify and ecommerce, Clay and outbound tooling, and dozens of others. If a client asked you for help with a product like these and you could not take it, someone on Leadround is looking for exactly that request.</p>
+                    <p class="f-paragraph-large">Lead brokers buy lists and resell the same contact to as many buyers as will pay, which is bad for the client and bad for your name. Leadround is built for the opposite case: one real client you spoke with, verified by our staff and introduced to no more than three specialists who asked for the introduction. Whether you sell web design leads, SEO leads, automation leads or any other service request, the right place for it is a fellow professional, not a list vendor.</p>
             </div>
         </div>
     </div>
@@ -283,20 +562,49 @@
                     <p class="f-paragraph-medium">A real client who asked you for help with a project and whom you cannot or do not want to take. One request, one client, your own notes. Lists, scraped contacts and cold prospects are not leads on Leadround.</p>
                 </div>
                 <div class="lr-faq-item">
-                    <h3>How much do I earn?</h3>
-                    <p class="f-paragraph-medium">You set the terms when you post a lead and the current fee options are shown in the app. Payment is made when the introduction happens.</p>
+                    <h3>Which leads sell best?</h3>
+                    <p class="f-paragraph-medium">Clear requests for work on a software product: implementation, automation, integration, migration or ongoing management, with a named tool, a timeline and a realistic budget. The more specific your notes, the faster a specialist asks for the lead.</p>
                 </div>
                 <div class="lr-faq-item">
-                    <h3>Do I have to be a buyer too?</h3>
-                    <p class="f-paragraph-medium">No. Many members start by selling. Most end up doing both, because the colleague who bought your Klaviyo lead is the one who will send you a Zapier project next month.</p>
+                    <h3>How much can I earn per lead?</h3>
+                    <p class="f-paragraph-medium">You choose one of two options when you post the lead. A fixed referral fee, typically $30 to $200, for each introduction, with up to three introductions per lead. Or a 10% commission on the final project value. Use the calculator above for a rough estimate.</p>
+                </div>
+                <div class="lr-faq-item">
+                    <h3>How do I get paid?</h3>
+                    <p class="f-paragraph-medium">You connect a payout account in the app. A fixed fee is earned for each introduction to your lead. A commission is earned when your referral converts into a project and the payment is collected from the client.</p>
+                </div>
+                <div class="lr-faq-item">
+                    <h3>What does it cost to sell a lead?</h3>
+                    <p class="f-paragraph-medium">Posting a lead costs nothing. The referral fee is paid by the expert who is introduced to your client.</p>
+                </div>
+                <div class="lr-faq-item">
+                    <h3>Does Leadround check the leads?</h3>
+                    <p class="f-paragraph-medium">Yes. Each lead submission is verified: our staff contacts the client to make sure the request is real, accurate and current.</p>
+                </div>
+                <div class="lr-faq-item">
+                    <h3>Who takes the leads I post?</h3>
+                    <p class="f-paragraph-medium">Fellow Leadround members who specialise in the tool the client needs: agencies, consultants and freelancers. Your lead is shown to them, not broadcast to the internet.</p>
+                </div>
+                <div class="lr-faq-item">
+                    <h3>Is my client's contact information safe?</h3>
+                    <p class="f-paragraph-medium">Yes. Members see the project, the tools, the timing and the budget range, not who the client is. Contact details are shared only with the experts who are introduced.</p>
                 </div>
                 <div class="lr-faq-item">
                     <h3>What happens to the client?</h3>
-                    <p class="f-paragraph-medium">Leadround introduces the client to the expert who requested the introduction and stays in the loop to make sure the handover goes well.</p>
+                    <p class="f-paragraph-medium">Leadround introduces the client to the experts who asked for the introduction, and a project manager stays with the client to help the project get delivered.</p>
+                </div>
+                <div class="lr-faq-item">
+                    <h3>What if nobody takes my lead?</h3>
+                    <p class="f-paragraph-medium">You can update the lead or withdraw it at any time from your account.</p>
+                </div>
+                <div class="lr-faq-item">
+                    <h3>Do I have to buy leads too?</h3>
+                    <p class="f-paragraph-medium">No. You can join Leadround only to sell the leads you cannot take.</p>
                 </div>
             </div>
         </div>
     </div>
+
 
     <div class="f-section-regular">
         <div class="f-container-regular">
@@ -317,17 +625,15 @@
 
     <div class="footer">
         <div class="f-container-regular">
-            <div class="w-layout-grid f-footer-grid">
-                <div class="div-block-2">
-                    <div class="f-margin-bottom-24">
-                        <a href="https://leadround.io/" class="f-footer-logo w-inline-block"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/672e079498178826362b8861_Logo.svg" loading="lazy" width="124" alt="Leadround" /></a>
-                    </div>
-                    <p class="f-paragraph-small">The first peer-to-peer lead exchange network for cloud software service professionals</p>
+            <div class="f-footer-divider lr-footer-top-divider"></div>
+            <div class="lr-footer-grid">
+                <div class="lr-footer-brand">
+                    <a href="https://leadround.io/" class="f-footer-logo w-inline-block"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/672e079498178826362b8861_Logo.svg" loading="lazy" width="124" alt="Leadround" /></a>
+                    <p class="f-paragraph-small">A peer-to-peer lead marketplace for agencies, consultants and freelancers.</p>
+                    <p class="f-footer-detail">© 2026 Leadround. All rights reserved.</p>
                 </div>
-            </div>
-            <div class="f-footer-divider"></div>
-            <div class="f-footer-bottom">
-                <div class="footer-nav-links"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/672e079498178826362b8861_Logo.svg" loading="lazy" width="124" alt="" class="footer-logo" />
+                <div class="lr-footer-col">
+                    <div class="lr-footer-heading">Product</div>
                     <a href="https://leadround.io/how-it-works" class="f-footer-link w-inline-block">
                         <div>How it works</div>
                     </a>
@@ -337,11 +643,11 @@
                     <a href="https://leadround.io/buy-leads" class="f-footer-link w-inline-block">
                         <div>Buy leads</div>
                     </a>
-                    <a href="https://leadround.io/leads-for-agencies" class="f-footer-link w-inline-block">
-                        <div>Leads for agencies</div>
-                    </a>
-                    <a href="https://leadround.io/leads-for-freelancers" class="f-footer-link w-inline-block">
-                        <div>Leads for freelancers</div>
+                </div>
+                <div class="lr-footer-col">
+                    <div class="lr-footer-heading">Company</div>
+                    <a href="mailto:support@leadround.io?subject=Question%20about%20Leadround" class="f-footer-link w-inline-block">
+                        <div>Contact support</div>
                     </a>
                     <a href="https://leadround.io/terms-of-service" class="f-footer-link w-inline-block">
                         <div>Terms of Service</div>
@@ -349,12 +655,6 @@
                     <a href="https://leadround.io/privacy-policy" class="f-footer-link w-inline-block">
                         <div>Privacy policy</div>
                     </a>
-                    <a href="mailto:support@leadround.io?subject=Question%20about%20Leadround" class="f-footer-link w-inline-block">
-                        <div>Contact support</div>
-                    </a>
-                </div>
-                <div class="footer-copyright-details">
-                    <p class="f-footer-detail">© 2026 Leadround. All rights reserved.</p>
                 </div>
             </div>
         </div>

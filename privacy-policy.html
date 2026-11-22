@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Last Published: Fri Mar 27 2026 15:37:26 GMT+0000 (Coordinated Universal Time) -->
-<html data-wf-domain="leadr0und.webflow.io" data-wf-page="67ab3b030021ecda34a51060" data-wf-site="6728afec6a764a5b0ff7226e" data-wf-status="1">
+<html lang="en" data-wf-domain="leadr0und.webflow.io" data-wf-page="67ab3b030021ecda34a51060" data-wf-site="6728afec6a764a5b0ff7226e" data-wf-status="1">
 
 <head>
     <meta charset="utf-8" />
@@ -11,6 +11,9 @@
     <meta property="og:url" content="https://leadround.io/privacy-policy" />
     <meta property="og:title" content="Privacy Policy | Leadround" />
     <meta property="og:description" content="How Leadround, Inc. collects, uses and shares personal information on leadround.io and app.leadround.io, and the choices you have." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Privacy Policy | Leadround" />
+    <meta name="twitter:description" content="How Leadround, Inc. collects, uses and shares personal information on leadround.io and app.leadround.io, and the choices you have." />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
     <link href="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/css/leadr0und.webflow.shared.c8a605797.css" rel="stylesheet" type="text/css" integrity="sha384-yKYFeXzfXjjOa58sEcHKg7stkNB1WMVbI7zEVSujmO9S2klpYMjezZ11OM2majqh" crossorigin="anonymous" />
@@ -26,29 +29,116 @@
       }
            @media (min-width: 992px) { .navigation-container-desktop .navigation-menu { display: flex; gap: 8px; margin-left: 24px; } }
       /* footer: four columns */
-      .footer { padding-top: 40px; }
-      .lr-footer-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr)); grid-column-gap: 40px; grid-row-gap: 32px; align-items: start; }
-      .lr-footer-brand .f-footer-logo img { display: block; }
-      .lr-footer-brand .f-paragraph-small { margin-top: 20px; }
-      .lr-footer-heading { font-family: Plusjakartasans, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #6b7094; margin-bottom: 10px; }
+      .navigation-container-desktop .navigation-link { font-size: 16px; line-height: 24px; }
+      .navigation-container-desktop .navigation-link:not(.w--current) { color: #111827; }
+      .navigation-container-desktop .navigation-button-secondary { display: inline-flex; align-items: center; justify-content: center; line-height: 24px; }
+      .footer { padding-top: 0; }
+      .lr-footer-top-divider.f-footer-divider { margin-top: 88px; margin-bottom: 44px; }
+      .lr-footer-grid { display: grid; grid-template-columns: minmax(0, 2.6fr) repeat(2, minmax(0, 1fr)); grid-column-gap: 40px; grid-row-gap: 32px; align-items: start; }
+      .lr-footer-brand .f-footer-logo { display: block; width: 124px; line-height: 0; }
+      .lr-footer-brand .f-footer-logo img { display: block; width: 124px; height: 30px; }
+      .lr-footer-brand .f-paragraph-small { margin-top: 16px; }
+      .lr-footer-heading { font-family: Plusjakartasans, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #6b7094; line-height: 16px; height: 30px; display: flex; align-items: center; margin-bottom: 6px; }
       .lr-footer-col { display: flex; flex-direction: column; align-items: flex-start; }
       .lr-footer-col .f-footer-link { margin: 0; padding: 5px 0; }
       .lr-footer-col .f-footer-link:hover { color: #6b7094; border: 0; }
-      .f-footer-divider { margin-top: 48px; margin-bottom: 24px; }
-      .lr-footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px 24px; }
-      .lr-footer-bottom .f-footer-detail { margin: 0; }
-      @media (max-width: 991px) { .lr-footer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .lr-footer-brand { grid-column: 1 / -1; } .lr-footer-brand .f-paragraph-small { text-align: left; } }
+      .lr-footer-brand .f-footer-detail { margin: 16px 0 0; text-align: left; color: #9a9eb8; font-size: 12px; line-height: 16px; }
+      @media (max-width: 991px) { .lr-footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .lr-footer-brand { grid-column: 1 / -1; } .lr-footer-brand .f-paragraph-small { text-align: left; } }
       @media (max-width: 479px) { .lr-footer-grid { grid-template-columns: 1fr; grid-row-gap: 28px; } }
+      @media (max-width: 767px) { .lr-footer-brand { order: 1; } }
+      h2.f-heading-terms { margin: 0; }
      </style>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="ba18cce8-1802-4a56-a928-3b4bc80b758b"></script>
+    <script>
+      (function () {
+        var token = new URLSearchParams(window.location.search).get("t");
+        if (!token) return;
+        document.cookie = "leadround_token=" + encodeURIComponent(token) + "; path=/; domain=.leadround.io; max-age=2592000; SameSite=Lax; Secure";
+        fetch("https://4lry0l7f42.execute-api.us-east-1.amazonaws.com/default/leadround-proxy-event-tracking", {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "text/plain" },
+          body: JSON.stringify({ token: token, eventType: "CLICK", url: window.location.href })
+        }).catch(function () {});
+        function tagLinks() {
+          document.querySelectorAll('a[href^="https://app.leadround.io/"]').forEach(function (link) {
+            var url = new URL(link.href);
+            url.searchParams.set("t", token);
+            link.href = url.toString();
+          });
+        }
+        if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", tagLinks); else tagLinks();
+      })();
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XRZC7WM6M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8XRZC7WM6M');
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://leadround.io/#organization",
+          "name": "Leadround",
+          "url": "https://leadround.io/",
+          "logo": "https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/672e079498178826362b8861_Logo.svg",
+          "email": "support@leadround.io"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://leadround.io/#website",
+          "url": "https://leadround.io/",
+          "name": "Leadround",
+          "publisher": {
+            "@id": "https://leadround.io/#organization"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://leadround.io/privacy-policy#webpage",
+          "url": "https://leadround.io/privacy-policy",
+          "name": "Privacy Policy | Leadround",
+          "description": "How Leadround, Inc. collects, uses and shares personal information on leadround.io and app.leadround.io, and the choices you have.",
+          "isPartOf": {
+            "@id": "https://leadround.io/#website"
+          },
+          "about": {
+            "@id": "https://leadround.io/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Leadround",
+              "item": "https://leadround.io/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Privacy Policy",
+              "item": "https://leadround.io/privacy-policy"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
     <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
         <div class="navigation-container-desktop">
             <div class="navigation-link-wrapper">
-                <a href="#" class="logo-link-large w-inline-block"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/672e079498178826362b8861_Logo.svg" loading="lazy" width="156" alt="" class="logo" /></a>
-                <nav role="navigation" class="navigation-menu w-nav-menu"><a href="https://leadround.io/how-it-works" class="navigation-link w-nav-link">How it works</a><a href="https://leadround.io/sell-leads" class="navigation-link w-nav-link">Sell leads</a></nav>
+                <a href="https://leadround.io/" class="logo-link-large w-inline-block"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/672e079498178826362b8861_Logo.svg" loading="lazy" width="156" alt="" class="logo" /></a>
+                <nav role="navigation" class="navigation-menu w-nav-menu"><a href="https://leadround.io/how-it-works" class="navigation-link w-nav-link">How it works</a><a href="https://leadround.io/sell-leads" class="navigation-link w-nav-link">Sell leads</a><a href="https://leadround.io/buy-leads" class="navigation-link w-nav-link">Buy leads</a></nav>
             </div>
             <div class="navigation-wrapper"><a href="https://app.leadround.io/sign-in" class="navigation-button-secondary w-nav-link"><span class="link">Log in</span></a>
                 <a href="https://app.leadround.io/sign-up" class="navigation-button w-inline-block">
@@ -61,10 +151,10 @@
         </div>
         <div class="navigation-container-mobile">
             <div class="navigation-link-wrapper">
-                <a href="#" class="logo-link-large w-inline-block"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201.png" loading="lazy" width="156" sizes="156px" alt="" srcset="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201-p-500.png 500w, https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201-p-800.png 800w, https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201.png 1141w" class="logo" /></a>
+                <a href="https://leadround.io/" class="logo-link-large w-inline-block"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201.png" loading="lazy" width="156" sizes="156px" alt="" srcset="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201-p-500.png 500w, https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201-p-800.png 800w, https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/6728c258d970cdbb83c03d3f_Logo%201.png 1141w" class="logo" /></a>
             </div>
             <div class="navigation-wrapper"><a href="https://app.leadround.io/sign-in" class="navigation-link w-nav-link"><span class="link">Log in</span></a>
-                <a href="#" class="navigation-button-tablet w-inline-block">
+                <a href="https://app.leadround.io/sign-up" class="navigation-button-tablet w-inline-block">
                     <div class="text-block">Join Leadround</div>
                 </a>
             </div>
@@ -90,70 +180,66 @@
             <p class="f-terms-paragraph">This Privacy Policy describes how Leadround, Inc. ("<strong>Leadround</strong>", "<strong>we</strong>", "<strong>us</strong>") collects, uses and shares personal information when you visit leadround.io or use the Leadround platform at app.leadround.io (together, the "<strong>Platform</strong>"), and the choices you have about that information.</p>
             <p class="f-terms-paragraph">Leadround is a marketplace where service professionals ("<strong>members</strong>") post client requests ("<strong>leads</strong>") they cannot take and are introduced to other members who can. This Privacy Policy covers personal information about members and about the clients described in leads.</p>
             <p class="f-terms-paragraph">By using the Platform you agree to this Privacy Policy. This Privacy Policy is part of our <a href="https://leadround.io/terms-of-service">Terms of Service</a>.</p>
-            <div class="f-heading-terms">Information we collect</div>
+            <h2 class="f-heading-terms">Information we collect</h2>
             <p class="f-terms-paragraph"><strong>Information you give us.</strong> When you create an account, complete your profile, post a lead, request an introduction, make or receive a payment, or contact us, you may provide information such as your name, email address, phone number, business details, payment and payout details, and the content of your messages.</p>
             <p class="f-terms-paragraph"><strong>Information in leads.</strong> A lead may contain personal information about a client: contact details and a description of the project.</p>
             <p class="f-terms-paragraph"><strong>Information collected automatically.</strong> When you use the Platform we and our service providers may collect information about your device, browser and how you use the Platform through cookies and similar technologies. See "Cookies" below.</p>
             <p class="f-terms-paragraph"><strong>Information from other sources.</strong> We may receive information about you from other members, for example when a member posts a lead or requests an introduction, and from publicly available sources such as your business website.</p>
-            <div class="f-heading-terms">How we use information</div>
+            <h2 class="f-heading-terms">How we use information</h2>
             <p class="f-terms-paragraph">We use personal information to:<br/>• provide, operate and maintain the Platform;<br/>• create and manage accounts and verify members;<br/>• publish leads, process introduction requests and make introductions;<br/>• process payments and payouts and keep the records the law requires;<br/>• send service messages about your account, leads, introductions and payments;<br/>• send marketing communications, which you can opt out of at any time;<br/>• respond to your questions and provide support;<br/>• understand how the Platform is used and improve it;<br/>• protect the Platform, our members and others from fraud, abuse and violations of our Terms of Service;<br/>• comply with legal obligations.</p>
             <p class="f-terms-paragraph">Where required by law, we rely on one or more of the following legal bases: performance of our contract with you, our legitimate interests, your consent, and compliance with legal obligations.</p>
-            <div class="f-heading-terms">How we share information</div>
+            <h2 class="f-heading-terms">How we share information</h2>
             <p class="f-terms-paragraph"><strong>With other members.</strong> Information in a lead is shown to members so they can decide whether to request an introduction. A client's contact details are shared only with the member who is introduced to that client. Members who take part in an introduction see each other's name and business details.</p>
             <p class="f-terms-paragraph"><strong>With service providers.</strong> We share information with third-party companies that perform services on our behalf, such as hosting, payment processing, email delivery, customer support and analytics. These companies may use the information only to provide those services to us.</p>
             <p class="f-terms-paragraph"><strong>For legal reasons.</strong> We may disclose information if we believe it is necessary to comply with the law or a legal process, to enforce our Terms of Service, or to protect the rights, property or safety of Leadround, our members or others.</p>
             <p class="f-terms-paragraph"><strong>Business transfers.</strong> If Leadround is involved in a merger, acquisition, financing or sale of all or part of its business, personal information may be transferred as part of that transaction.</p>
             <p class="f-terms-paragraph"><strong>With your consent.</strong> We may share information for other purposes with your consent.</p>
             <p class="f-terms-paragraph">We do not sell personal information.</p>
-            <div class="f-heading-terms">Cookies</div>
+            <h2 class="f-heading-terms">Cookies</h2>
             <p class="f-terms-paragraph">We and our service providers use cookies and similar technologies to keep you signed in, remember your preferences, understand how the Platform is used and measure the effectiveness of our communications. Some of these technologies are provided by third-party analytics services.</p>
             <p class="f-terms-paragraph">Most browsers let you block or delete cookies through their settings. If you block cookies that are needed to sign in, parts of the Platform will not work.</p>
-            <div class="f-heading-terms">Your choices</div>
+            <h2 class="f-heading-terms">Your choices</h2>
             <p class="f-terms-paragraph"><strong>Account information.</strong> You can review and update your profile information in your account settings or by contacting us.</p>
             <p class="f-terms-paragraph"><strong>Marketing communications.</strong> You can opt out of marketing emails by using the unsubscribe link in any such email or by contacting us. We will still send you service messages about your account.</p>
             <p class="f-terms-paragraph"><strong>Leads about you.</strong> If you are a client whose information was posted on Leadround by a member, you can ask us to review, correct or delete that information by contacting us.</p>
-            <div class="f-heading-terms">Your rights</div>
+            <h2 class="f-heading-terms">Your rights</h2>
             <p class="f-terms-paragraph">Depending on where you live, you may have the right to access the personal information we hold about you, to have it corrected or deleted, to restrict or object to its processing, to receive a copy of it in a portable format, to withdraw consent, and to complain to a data protection authority. To exercise these rights, contact us at <a href="mailto:support@leadround.io">support@leadround.io</a>. We may need to verify your identity before responding.</p>
             <p class="f-terms-paragraph"><strong>California residents.</strong> California law gives you the right to know what personal information we collect, use and disclose, to request its deletion or correction, and to opt out of its sale or sharing. We do not sell personal information or share it for cross-context behavioral advertising. We will not discriminate against you for exercising your rights.</p>
-            <div class="f-heading-terms">Data retention</div>
+            <h2 class="f-heading-terms">Data retention</h2>
             <p class="f-terms-paragraph">We keep personal information for as long as needed to provide the Platform, to comply with our legal obligations, to resolve disputes and to enforce our agreements. When information is no longer needed for these purposes we delete it or make it anonymous.</p>
-            <div class="f-heading-terms">Security</div>
+            <h2 class="f-heading-terms">Security</h2>
             <p class="f-terms-paragraph">We maintain reasonable administrative, technical and physical safeguards designed to protect personal information against unauthorized access, loss, misuse or alteration. No method of transmission over the internet or of electronic storage is completely secure, so we cannot guarantee absolute security.</p>
-            <div class="f-heading-terms">International transfers</div>
+            <h2 class="f-heading-terms">International transfers</h2>
             <p class="f-terms-paragraph">Leadround is based in the United States and personal information is processed there. If you use the Platform from outside the United States, your information will be transferred to and processed in the United States, where privacy laws may differ from those of your country. Where required, we use appropriate safeguards for such transfers.</p>
-            <div class="f-heading-terms">Third-party websites</div>
+            <h2 class="f-heading-terms">Third-party websites</h2>
             <p class="f-terms-paragraph">The Platform may contain links to websites and services that we do not operate, including the websites of members and clients. This Privacy Policy does not apply to them. We encourage you to read the privacy policies of any website or service you visit.</p>
-            <div class="f-heading-terms">Children</div>
+            <h2 class="f-heading-terms">Children</h2>
             <p class="f-terms-paragraph">The Platform is intended for business use by adults. We do not knowingly collect personal information from anyone under 18. If you believe a child has provided us with personal information, contact us and we will delete it.</p>
-            <div class="f-heading-terms">Changes to this policy</div>
+            <h2 class="f-heading-terms">Changes to this policy</h2>
             <p class="f-terms-paragraph">We may update this Privacy Policy from time to time. The date of the latest version is shown at the top of this page. If we make material changes we will notify you through the Platform or by email before they take effect. Your continued use of the Platform after a change means you accept the updated policy.</p>
-            <div class="f-heading-terms">Contact us</div>
+            <h2 class="f-heading-terms">Contact us</h2>
             <p class="f-terms-paragraph">If you have questions about this Privacy Policy or our privacy practices, contact us at <a href="mailto:support@leadround.io">support@leadround.io</a>.</p>
         </div>
     </div>
     <div class="footer">
         <div class="f-container-regular">
+            <div class="f-footer-divider lr-footer-top-divider"></div>
             <div class="lr-footer-grid">
                 <div class="lr-footer-brand">
                     <a href="https://leadround.io/" class="f-footer-logo w-inline-block"><img src="https://cdn.prod.website-files.com/6728afec6a764a5b0ff7226e/672e079498178826362b8861_Logo.svg" loading="lazy" width="124" alt="Leadround" /></a>
-                    <p class="f-paragraph-small">The first peer-to-peer lead exchange network for cloud software service professionals</p>
+                    <p class="f-paragraph-small">A peer-to-peer lead marketplace for agencies, consultants and freelancers.</p>
+                    <p class="f-footer-detail">© 2026 Leadround. All rights reserved.</p>
                 </div>
                 <div class="lr-footer-col">
-                    <div class="lr-footer-heading">Leadround</div>
+                    <div class="lr-footer-heading">Product</div>
                     <a href="https://leadround.io/how-it-works" class="f-footer-link w-inline-block">
                         <div>How it works</div>
                     </a>
                     <a href="https://leadround.io/sell-leads" class="f-footer-link w-inline-block">
                         <div>Sell leads</div>
                     </a>
-                </div>
-                <div class="lr-footer-col">
-                    <div class="lr-footer-heading">Who it is for</div>
-                    <a href="https://leadround.io/for-agencies" class="f-footer-link w-inline-block">
-                        <div>For agencies</div>
-                    </a>
-                    <a href="https://leadround.io/for-freelancers" class="f-footer-link w-inline-block">
-                        <div>For freelancers</div>
+                    <a href="https://leadround.io/buy-leads" class="f-footer-link w-inline-block">
+                        <div>Buy leads</div>
                     </a>
                 </div>
                 <div class="lr-footer-col">
@@ -168,10 +254,6 @@
                         <div>Privacy policy</div>
                     </a>
                 </div>
-            </div>
-            <div class="f-footer-divider"></div>
-            <div class="lr-footer-bottom">
-                <p class="f-footer-detail">© 2026 Leadround. All rights reserved.</p>
             </div>
         </div>
     </div>
